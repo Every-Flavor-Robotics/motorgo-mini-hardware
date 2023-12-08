@@ -1446,17 +1446,29 @@
     (property "Footprint" "aa_sparkfun_connectors:1X03_LOCK" (at 153.67 97.79 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 153.67 87.63 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-SM03B-SRSS-TB-LF-SN_C160403.html" (at 153.67 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "CONN-08625" (at 153.67 95.25 0)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "Not sure what this is. 3 pin motor outputs? recommend for review. 3x1 2.54mm male pins not in LCSC catalog. " (at 153.67 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C160403" (at 153.67 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "JST" (at 153.67 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SM03B-SRSS-TB(LF)(SN)" (at 153.67 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f157bf73-be78-402c-9e38-d4c227c9a71b))
     (pin "2" (uuid a747bc7a-5f7c-4c25-86d0-4926e37e27d4))
     (pin "3" (uuid b0ce0563-03af-4381-a6da-3c4bd74c1690))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -1487,7 +1499,7 @@
     )
     (pin "1" (uuid 440cef54-c680-4fb0-a2f7-f956bb382885))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR02") (unit 1)
         )
@@ -1510,16 +1522,28 @@
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 76.2 85.09 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 82.55 85.09 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB103_C60133.html" (at 82.55 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "CAP-00867" (at 84.455 81.28 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+    (property "LCSC Part Number" "C60133" (at 82.55 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "YAGEO" (at 82.55 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "CC0402KRX7R9BB103" (at 82.55 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "0603 or 0402?? see C3, C6 for 0402. No 0603 are 50V rated on LCSC. " (at 82.55 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e410b110-a5bc-4029-b5d5-07b2ba244d11))
     (pin "2" (uuid 93c3c8cf-5355-4e1d-88cc-404985ce80db))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "C2") (unit 1)
         )
@@ -1542,16 +1566,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 71.12 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 74.93 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 74.93 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 77.47 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 74.93 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 74.93 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 74.93 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 74.93 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5b286061-cbdd-4c27-a218-bf69e388bb81))
     (pin "2" (uuid 39e14bc7-9745-4395-93e1-835b79713b0b))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R11") (unit 1)
         )
@@ -1574,7 +1610,19 @@
     (property "Footprint" "aaa_trinamic:TMC6300 3x3mm" (at 107.95 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 123.19 81.28 0) (do_not_autoplace)
+    (property "Datasheet" "https://www.mouser.com/ProductDetail/ADI-Trinamic/TMC6300-LA?qs=QNEnbhJQKvYIagO3WUG%252BYg%3D%3D" (at 123.19 81.28 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "there is also a TMC6300-LA-T on Mouser. Recommend confirming this is the correct P/N." (at 95.25 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "n/a" (at 95.25 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "ADI Trinamic" (at 95.25 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "TMC6300-LA" (at 95.25 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7dcfc1f7-0065-47a2-81ab-24a1600d0935))
@@ -1599,7 +1647,7 @@
     (pin "8" (uuid 2eff037f-0ff1-40d7-87dc-b23cd2c50727))
     (pin "9" (uuid 04a3898e-70b3-4c5d-9cfa-8c0b25b0e160))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U3") (unit 1)
         )
@@ -1625,13 +1673,25 @@
     (property "Footprint" "aaa_SamacSys_Parts:RESC1608X55N" (at 144.78 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 144.78 87.63 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Current-Sense-Resistors-Shunt-Resistors_LIZ-Elec-RM2512FBR001GS_C5154734.html" (at 144.78 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "loaded from AlexLoaded from engineering " (at 144.78 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C5154734" (at 144.78 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "LIZ Elec" (at 144.78 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "RM2512FBR001GS" (at 144.78 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1a368d89-36b3-4d02-b9fa-7b9b05d0889d))
     (pin "2" (uuid 17970ba3-f810-4c30-a6f4-7869bcad4768))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R1") (unit 1)
         )
@@ -1654,7 +1714,19 @@
     (property "Footprint" "aaa_motorgo_components:INA2181_VSSOP_10" (at 194.31 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 194.31 90.17 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Current-Sensing-Amplifiers_Texas-Instruments-INA2181A4QDGSRQ1_C2058024.html" (at 194.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "assumed A4 was needed (options: A1 - A4). Recommend confirming. " (at 194.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C2058024" (at 194.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Texas Instruments " (at 194.31 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "INA2181A4QDGSRQ1" (at 194.31 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7279f6b6-255f-4ae7-8524-800e9c09e80f))
@@ -1668,7 +1740,7 @@
     (pin "8" (uuid af62f45c-728a-4667-b4e4-f0cfc8589b43))
     (pin "9" (uuid 4f7bff87-7f5a-408f-87b5-5cd6ddf8619d))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U5") (unit 1)
         )
@@ -1694,16 +1766,28 @@
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 203.2 71.12 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 209.55 71.12 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Kyocera-AVX-08055C104KAZ2A_C6641151.html" (at 209.55 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "CAP-12416" (at 208.28 67.31 90)
       (effects (font (size 1.524 1.524)) hide)
     )
+    (property "LCSC Part Number" "C6641151" (at 209.55 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Kyocera AVX" (at 209.55 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "08055C104KAZ2A" (at 209.55 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "no availability on LCSC for this spec. There is one in 0805 pacakge (specified to left) for ~$0.05 per unit. recommend this for review. " (at 209.55 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5e40e3dd-3c8d-4a32-96df-711aaa3f4bd1))
     (pin "2" (uuid e106e031-9ba5-4c93-b188-b901acfc2df2))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "C4") (unit 1)
         )
@@ -1726,16 +1810,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 55.88 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 59.69 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 59.69 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 62.23 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 59.69 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9216e6e9-dee6-437e-90be-99be635cb005))
     (pin "2" (uuid 138f1344-9352-400c-b11c-80b496aa378c))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R3") (unit 1)
         )
@@ -1758,16 +1854,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 67.31 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 71.12 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 71.12 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 73.66 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 71.12 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 71.12 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 71.12 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 71.12 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 10825336-2a0f-408f-83c5-2a80697a1c99))
     (pin "2" (uuid 17955486-8a53-4808-b88c-25168a2f3b38))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R8") (unit 1)
         )
@@ -1790,16 +1898,28 @@
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 76.2 80.01 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 82.55 80.01 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB103_C60133.html" (at 82.55 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "CAP-00867" (at 84.455 76.2 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+    (property "LCSC Part Number" "C60133" (at 82.55 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "YAGEO" (at 82.55 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "CC0402KRX7R9BB103" (at 82.55 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "see note on C1." (at 82.55 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1b9f40db-bfc6-42f6-b748-fab1222a8c2c))
     (pin "2" (uuid 8d36b1b7-0b93-449a-af5c-fe7ee046d961))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "C3") (unit 1)
         )
@@ -1827,7 +1947,7 @@
     )
     (pin "1" (uuid 28e02c84-b5d4-4cf0-b764-a0d8d5d087c1))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR08") (unit 1)
         )
@@ -1855,7 +1975,7 @@
     )
     (pin "1" (uuid 5dcbd953-3ca1-42da-a9cb-8970272b8375))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR01") (unit 1)
         )
@@ -1883,7 +2003,7 @@
     )
     (pin "1" (uuid 8eab4d29-8199-4fab-96da-6dd29ee9d705))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR03") (unit 1)
         )
@@ -1906,16 +2026,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 59.69 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 63.5 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 63.5 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 66.04 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 63.5 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 63.5 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 63.5 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 63.5 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2dfdb7c9-427e-4782-af08-e3a3836d5a73))
     (pin "2" (uuid 2872c285-8c54-49c1-bf1d-9bd7b954eb34))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R4") (unit 1)
         )
@@ -1938,13 +2070,25 @@
     (property "Footprint" "aaa_SamacSys_Parts:RESC1608X55N" (at 144.78 97.79 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 144.78 92.71 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Current-Sense-Resistors-Shunt-Resistors_LIZ-Elec-RM2512FBR001GS_C5154734.html" (at 144.78 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "loaded from AlexLoaded from engineering " (at 144.78 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C5154734" (at 144.78 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "LIZ Elec" (at 144.78 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "RM2512FBR001GS" (at 144.78 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0b26cbfd-37f5-4c28-93bc-6bf7ec8d4a00))
     (pin "2" (uuid 7230b3b9-ac70-4133-89fd-055aa8787e9c))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R2") (unit 1)
         )
@@ -1972,7 +2116,7 @@
     )
     (pin "1" (uuid 508ced39-b4d0-4ae5-adbd-ef42815937dc))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR06") (unit 1)
         )
@@ -2000,7 +2144,7 @@
     )
     (pin "1" (uuid 8cf4a193-a915-402a-a237-a278b6a78a2f))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR04") (unit 1)
         )
@@ -2023,16 +2167,28 @@
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 86.36 74.93 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 80.01 74.93 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB103_C60133.html" (at 80.01 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Field4" "CAP-00867" (at 78.105 78.74 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+    (property "LCSC Part Number" "C60133" (at 80.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "YAGEO" (at 80.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "CC0402KRX7R9BB103" (at 80.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "note" "0603 or 0402?? see C3, C6 for 0402. No 0603 are 50V rated on LCSC. " (at 80.01 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b7ea6c1f-f499-4ae8-8b05-e5abd88d32e9))
     (pin "2" (uuid 92823671-3079-4610-adca-3737e94f9595))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "C1") (unit 1)
         )
@@ -2060,7 +2216,7 @@
     )
     (pin "1" (uuid 7502f894-b056-4120-9259-9260692fe0c6))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR07") (unit 1)
         )
@@ -2088,7 +2244,7 @@
     )
     (pin "1" (uuid 6af4b37c-df92-48d0-be19-6df74a1ecd18))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "#PWR05") (unit 1)
         )
@@ -2111,16 +2267,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 74.93 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 78.74 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 78.74 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 81.28 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 78.74 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 78.74 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 78.74 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 78.74 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4ca66f59-12e9-4f9f-adf7-ba1776c54211))
     (pin "2" (uuid 7dbefd12-0e6c-414d-8d0b-8af60d9213c3))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R13") (unit 1)
         )
@@ -2143,16 +2311,28 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 63.5 119.38 0)
       (effects (font (size 0.508 0.508)) hide)
     )
-    (property "Datasheet" "" (at 67.31 119.38 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Chip-span-style-background-color-ff0-Resistor-span-Surface-Mount_VO-SCR0402F1K_C3015791.html" (at 67.31 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Field4" "RES-07856" (at 69.85 122.555 90)
       (effects (font (size 1.524 1.524)) (justify right) hide)
     )
+    (property "note" "1%" (at 67.31 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part Number" "C3015791" (at 67.31 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "VO" (at 67.31 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "SCR0402F1K" (at 67.31 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid aacd50b8-d95a-43a3-837b-19539414a496))
     (pin "2" (uuid e321d667-6cdb-418b-b881-eb6aec3d5dfb))
     (instances
-      (project "mini_motor_go_V1_rev2"
+      (project "mini_motor_go_V1_rev3"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/bc53d230-8615-48af-9143-e1dc6bc69b3f"
           (reference "R6") (unit 1)
         )
