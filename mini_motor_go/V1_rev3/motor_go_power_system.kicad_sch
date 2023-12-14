@@ -1767,7 +1767,7 @@
     (property "Value" "SRP3212A-4R7M" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "aaa_SamacSys_Parts:INDC3225X120N" (at 73.66 164.77 0)
+    (property "Footprint" "Inductor_SMD:L_Changjiang_FNR5020S" (at 73.66 164.77 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.lcsc.com/product-detail/Power-Inductors_cjiang-Changjiang-Microelectronics-Tech-FNR5020S4R7MT_C167930.html" (at 73.66 264.77 0)
