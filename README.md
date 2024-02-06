@@ -14,4 +14,5 @@
   * Arduino compatible :)
   * Designed for manufacturing readyness (4-layers, LCSC parts centered BOM (mostly), and all parts on top side)
 ![image](https://github.com/Every-Flavor-Robotics/motorgo-mini-hardware/assets/34074861/51f94fa9-cf6b-4c85-ba25-7cf4cfe61ef0)
-![image](https://github.com/Every-Flavor-Robotics/motorgo-mini-hardware/assets/34074861/f09779fd-9d61-4602-a823-ccbde0d9da46)
+![image](https://github.com/Every-Flavor-Robotics/motorgo-mini-hardware/assets/34074861/73f8a961-5b17-4e31-b05b-b774f9346453)
+
