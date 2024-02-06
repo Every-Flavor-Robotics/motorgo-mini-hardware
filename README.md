@@ -10,7 +10,7 @@
   * Plug-in ready power system with 5v and 3.3v regulation on-board!
   * at least 3 or 4 smiley faces
   * M3 mounting holes
-  * FULLY open source!
+  * FULLY open source! - from the BOM to the Copper to the code
   * Arduino compatible :)
   * Designed for manufacturing readyness (4-layers, LCSC parts centered BOM (mostly), and all parts on top side)
 ![image](https://github.com/Every-Flavor-Robotics/motorgo-mini-hardware/assets/34074861/51f94fa9-cf6b-4c85-ba25-7cf4cfe61ef0)
