@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.9*%
-%TF.CreationDate,2023-12-14T21:01:46-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*%
+%TF.CreationDate,2024-03-26T23:12:22-04:00*%
 %TF.ProjectId,mini_motor_go_V1_rev3,6d696e69-5f6d-46f7-946f-725f676f5f56,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.9) date 2023-12-14 21:01:46*
+G04 Created by KiCad (PCBNEW 7.0.2) date 2024-03-26 23:12:22*
 %MOMM*%
 %LPD*%
 G01*
@@ -214,8 +214,8 @@ X144767500Y-64182000D03*
 %TD*%
 D29*
 %TO.C,R33*%
-X144925100Y-85160104D03*
 X143730100Y-85160104D03*
+X144925100Y-85160104D03*
 %TD*%
 D31*
 %TO.C,C6*%
@@ -519,8 +519,8 @@ X140720000Y-66616001D03*
 %TD*%
 D27*
 %TO.C,D1*%
-X147890837Y-85533427D03*
 X149216663Y-84207601D03*
+X147890837Y-85533427D03*
 %TD*%
 D11*
 %TO.C,R12*%
