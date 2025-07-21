@@ -1,0 +1,22 @@
+#pragma experiment("TRAITS")
+import has_datasheet_defined
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Changjiang_Electronics_Tech_B5819W_SL_package:
+    """B5819W SL"""
+
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C8598", date="2025-07-21T18:35:14.649563+00:00", checksum="56591b6b5cac0cfd882140904bf9bddab66d3d53a2c2c3bb4d99a08a58c17de3">
+
+    trait is_atomic_part<manufacturer="Changjiang Electronics Tech ", partnumber="B5819W SL", footprint="SOD-123_L2.7-W1.6-LS3.7-RD-1.kicad_mod", symbol="B5819W_C8598.kicad_sym", model="SOD-123_L2.7-W1.6-LS3.7-RD-1.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C8598", manufacturer="Changjiang Electronics Tech ", partno="B5819W SL">
+    trait has_designator_prefix<prefix="D">
+    trait has_datasheet_defined<datasheet="https://lcsc.com/datasheet/lcsc_datasheet_2410121257_JSCJ-B5819W-SL_C8598.pdf">
+
+    # pins
+    signal neg ~ pin 1
+    signal pos ~ pin 2
