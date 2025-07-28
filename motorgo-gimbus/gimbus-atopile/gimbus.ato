@@ -1,0 +1,41 @@
+# gimbus.ato
+from "mcu.ato" import MCUBlock
+from "power.ato" import PowerBlock
+from "motor_driver.ato" import MotorDriverBlock
+from "feedback.ato" import FeedbackBlock
+from "ui.ato" import UIBlock
+from "connectors.ato" import ConnectorBlock
+
+component GimbusController:
+    # Instantiate all the modules
+    mcu = new MCUBlock
+    power = new PowerBlock
+    motor_driver = new MotorDriverBlock
+    feedback = new FeedbackBlock
+    ui = new UIBlock
+    connectors = new ConnectorBlock
+
+    # --- Top Level Connections ---
+    
+    # Power Rails
+    power.v_bus ~ connectors.v_bus
+    power.v_in_pd ~ connectors.v_in_pd
+    signal gnd
+    signal vcc_3v3
+    power.v_out_3v3 ~ vcc_3v3
+    mcu.power_3v3 ~ vcc_3v3
+    motor_driver.power_3v3 ~ vcc_3v3
+    feedback.power_3v3 ~ vcc_3v3
+    ui.power_3v3 ~ vcc_3v3
+    connectors.power_3v3 ~ vcc_3v3
+    
+    # Communication Buses
+    mcu.spi ~ motor_driver.spi
+    mcu.i2c ~ feedback.i2c
+    mcu.can ~ connectors.can_bus
+    mcu.usb ~ connectors.usb_lines
+    
+    # Control Signals
+    mcu.motor_pwm ~ motor_driver.pwm_in
+    mcu.mux_select ~ connectors.mux_select_ctrl
+    ui.status_led_ctrl ~ mcu.led_pin 

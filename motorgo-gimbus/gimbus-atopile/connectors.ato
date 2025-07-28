@@ -1,0 +1,42 @@
+#pragma experiment("FOR_LOOP")
+#pragma experiment("BRIDGE_CONNECT")
+
+import ElectricPower
+
+from "parts/XKB_Connectivity_U262_241N_4BV64/XKB_Connectivity_U262_241N_4BV64.ato" import XKB_Connectivity_U262_241N_4BV64_package
+from "parts/NXP_Semicon_TJA1051TK_3_1J/NXP_Semicon_TJA1051TK_3_1J.ato" import NXP_Semicon_TJA1051TK_3_1J_package
+from "parts/TECH_PUBLIC_FSUSB42UMX_TP/TECH_PUBLIC_FSUSB42UMX_TP.ato" import TECH_PUBLIC_FSUSB42UMX_TP_package
+
+module ConnectorBlock:
+    """
+    Connector and bus routing block
+    """
+    port_a = new XKB_Connectivity_U262_241N_4BV64_package
+    port_b = new XKB_Connectivity_U262_241N_4BV64_package
+    mux = new TECH_PUBLIC_FSUSB42UMX_TP_package
+    can_transceiver = new NXP_Semicon_TJA1051TK_3_1J_package
+
+    v_bus = new ElectricPower
+    v_in_pd = new ElectricPower
+    gnd = new ElectricPower
+    can_h = new ElectricPower
+    can_l = new ElectricPower
+
+    port_a.VBUS ~ v_in_pd
+    port_b.VBUS ~ v_in_pd
+
+    # USB OTG Routing (user to connect externally)
+    # port_a.DP1 ~ mux.NO1
+    # port_a.DN1 ~ mux.NO2
+    # port_b.DP1 ~ mux.NC1
+    # port_b.DN1 ~ mux.NC2
+    # mux.COM1 ~ usb_d_p
+    # mux.COM2 ~ usb_d_n
+
+    # MUX Control Logic (user to connect externally)
+    # mux.SEL ~ mux_select_ctrl
+
+    # CAN Bus Pass-Through Topology
+    can_transceiver.CANH ~ can_h
+    can_transceiver.CANL ~ can_l
+    # Add the switchable termination resistor, etc. 

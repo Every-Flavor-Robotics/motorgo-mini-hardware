@@ -1,0 +1,154 @@
+(footprint "Jiangsu_Changjing_Electronics_Technology_Co___Ltd_DSS34:SOD-123_L2.8-W1.8-LS3.7-RD-2"
+    (layer "F.Cu")
+    (descr "")
+    (version 20241229)
+    (generator "faebryk")
+    (generator_version "v5")
+    (tedit "5DC5F6A4")
+    (property "Reference" "REF**"
+        (at 0 -4 0)
+        (layer "F.SilkS")
+        (hide no)
+        (uuid "f0cf4c6e-2fa5-4ef9-bb49-5082a7a8fe8a")
+        (effects
+            (font
+                (size 1 1)
+                (thickness 0.15)
+            )
+        )
+    )
+    (property "Value" "SOD-123_L2.8-W1.8-LS3.7-RD-2"
+        (at 0 4 0)
+        (layer "F.Fab")
+        (hide no)
+        (uuid "c7ac2e59-f97f-4e72-9f8c-20d4908b87ca")
+        (effects
+            (font
+                (size 1 1)
+                (thickness 0.15)
+            )
+        )
+    )
+    (property "checksum" "8499190fa6eb9d3e8e7e4ece1192e149d197dca864a9a689bde8dba2c98bdaa7"
+        (at 0 0 0)
+        (layer "User.9")
+        (hide no)
+        (uuid "b27b558b-2c66-4c71-b490-c0b789bb64c2")
+        (effects
+            (font
+                (size 0.125 0.125)
+                (thickness 0.01875)
+            )
+            (hide yes)
+        )
+    )
+    (attr smd)
+    (fp_line
+        (start -1.41 -0.87)
+        (end 1.41 -0.87)
+        (stroke
+            (width 0.15)
+            (type solid)
+        )
+        (layer "F.SilkS")
+        (uuid "bc00ba6d-2185-4405-b4e8-8176a3a6eff3")
+    )
+    (fp_line
+        (start 1.41 -0.87)
+        (end 1.41 -0.7)
+        (stroke
+            (width 0.15)
+            (type solid)
+        )
+        (layer "F.SilkS")
+        (uuid "e9fe95e5-8313-4a18-81aa-0c23d539419e")
+    )
+    (fp_line
+        (start -1.41 0.87)
+        (end 1.41 0.87)
+        (stroke
+            (width 0.15)
+            (type solid)
+        )
+        (layer "F.SilkS")
+        (uuid "034a5ba3-5f0a-4a73-84d8-60d557fd2545")
+    )
+    (fp_line
+        (start 1.41 0.87)
+        (end 1.41 0.7)
+        (stroke
+            (width 0.15)
+            (type solid)
+        )
+        (layer "F.SilkS")
+        (uuid "e2f0dd86-7bd9-441d-9616-002adaea1c96")
+    )
+    (fp_line
+        (start -1.05 -0.87)
+        (end -1.05 0.87)
+        (stroke
+            (width 0.15)
+            (type solid)
+        )
+        (layer "F.SilkS")
+        (uuid "7b7455f3-5f0f-44bf-959d-23011b17a451")
+    )
+    (fp_circle
+        (center -1.83 0.9)
+        (end -1.8 0.9)
+        (stroke
+            (width 0.06)
+            (type solid)
+        )
+        (fill no)
+        (layer "F.Fab")
+        (uuid "1d504516-92a2-4ff4-a007-759f8899dbfd")
+    )
+    (fp_text user "%R"
+        (at 0 0 0)
+        (layer "F.Fab")
+        (uuid "eca91efc-bff2-411d-9d47-828bfa5f13f9")
+        (effects
+            (font
+                (size 1 1)
+                (thickness 0.15)
+            )
+        )
+        (unlocked no)
+    )
+    (fp_text user "${REFERENCE}"
+        (at 0 -4 0)
+        (layer "F.SilkS")
+        (uuid "f0cf4c6e-2fa5-4ef9-bb49-5082a7a8fe8a")
+        (effects
+            (font
+                (size 1 1)
+                (thickness 0.15)
+            )
+        )
+        (unlocked no)
+    )
+    (pad "1" smd rect
+        (at -1.69 0 0)
+        (size 0.95 1.15)
+        (layers "F.Cu" "F.Paste" "F.Mask")
+        (uuid "6d832c8a-ae9d-42c5-82c0-89ad27aea8a5")
+    )
+    (pad "2" smd rect
+        (at 1.69 0 0)
+        (size 0.95 1.15)
+        (layers "F.Cu" "F.Paste" "F.Mask")
+        (uuid "769fa264-df04-434e-832b-d1007f5cd425")
+    )
+    (model "${KIPRJMOD}\\..\\..\\parts\\Jiangsu_Changjing_Electronics_Technology_Co___Ltd_DSS34\\SOD-123_L2.8-W1.8-LS3.7-RD.STEP"
+        (offset
+            (xyz 0 0 0)
+        )
+        (scale
+            (xyz 1 1 1)
+        )
+        (rotate
+            (xyz 0 0 0)
+        )
+    )
+)

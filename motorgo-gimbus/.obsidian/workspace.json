@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "eee0cc235633bfe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "00c9ac7d9ae0d217",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2903176a1569abf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gimbus notes/Motorgo Gimbus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Motorgo Gimbus"
+            }
+          },
+          {
+            "id": "7c78e15310353bad",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-27 22.41.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-07-27 22.41.11.excalidraw"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3313b34fff55b7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb2380ec37833840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c53eac9e187c98e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "87bee76269ab1419",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f293512710bc960c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d483d6a1777d31f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "83b015a77f16499a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdc30e2db1c83de3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-27 22.41.11.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Drawing 2025-07-27 22.41.11.excalidraw"
+            }
+          },
+          {
+            "id": "1141ded9728bb8f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-27 22.41.11.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Drawing 2025-07-27 22.41.11.excalidraw"
+            }
+          },
+          {
+            "id": "e30bd1d570f0c5c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2f79f41c52a7c941",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-07-27 22.41.11.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Drawing 2025-07-27 22.41.11.excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "7c78e15310353bad",
+  "lastOpenFiles": [
+    "gimbus-kicad/mg-gimbus/~mg-gimbus.kicad_pcb.lck",
+    "gimbus-kicad/mg-gimbus/mg-gimbus-backups/mg-gimbus-2025-07-28_093543.zip",
+    "gimbus-kicad/mg-gimbus/#au2F2B.tmp",
+    "gimbus notes/Motorgo Gimbus.md",
+    "Excalidraw/Drawing 2025-07-27 22.41.11.excalidraw.md",
+    "Excalidraw",
+    "gimbus-kicad/mg-gimbus/mg-gimbus-backups/mg-gimbus-2025-07-27_154932.zip",
+    "gimbus-kicad/mg-gimbus/#au98C5.tmp",
+    "gimbus-kicad/mg-gimbus/mg-gimbus-backups/mg-gimbus-2025-07-27_143004.zip",
+    "Untitled.md",
+    "gimbus-kicad/mg-gimbus/#au71CB.tmp",
+    "gimbus-kicad/mg-gimbus/#auto_saved_files#",
+    "gimbus-kicad/mg-gimbus/_autosave-mg-gimbus-dual-usbpd-submodule.kicad_sch",
+    "gimbus-kicad/mg-gimbus/~_autosave-mg-gimbus.kicad_pcb.lck",
+    "Pasted image 20250723125023.png",
+    "Pasted image 20250722134537.png",
+    "Pasted image 20250722134249.png",
+    "Pasted image 20250722132813.png",
+    "gimbus notes/Pasted image 20250721132601.png"
+  ]
+}
