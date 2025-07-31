@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,7 +68,32 @@
           "width": 0.219964
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|112550000|87337500|c6815651-7287-445c-ae19-0c673dd02545|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|115550000|87337500|8ce9d88c-0c2a-40c4-b1f6-ed921a949816|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|117267500|103400000|851260dc-9a2d-4b53-8a83-0344e4517dca|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|117267500|96600000|f264ada0-4881-4134-b413-7d74186ebd40|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|82732500|103400000|6a51e363-b15f-4e63-ab34-c81c1af62860|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|82732500|96600000|c94d8e55-351d-496f-b86e-f7af1dfdaa65|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -147,7 +172,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0889,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -491,7 +516,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -502,8 +527,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.09,
+        "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
       }

@@ -3798,12 +3798,6 @@
 		(uuid "e8bc081c-4e8f-4c2e-8904-640a61eafdc3")
 	)
 	(junction
-		(at 243.84 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea2f2392-3d06-41b4-8f09-47e486ab7f6e")
-	)
-	(junction
 		(at 147.32 149.86)
 		(diameter 0)
 		(color 240 0 0 1)
@@ -5066,17 +5060,6 @@
 			(color 7 127 0 1)
 		)
 		(uuid "aae87607-4d29-4756-ae61-359f5ebd00eb")
-	)
-	(wire
-		(pts
-			(xy 243.84 38.1) (xy 246.38 38.1)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b22a1e46-d869-4502-b3d0-dfbb2c4bd2c2")
 	)
 	(wire
 		(pts
@@ -10191,7 +10174,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape input)
-		(at 163.83 48.26 0)
+		(at 163.83 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10202,7 +10185,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape input)
-		(at 163.83 50.8 0)
+		(at 163.83 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10221,17 +10204,6 @@
 			(justify left)
 		)
 		(uuid "94153037-2158-4fd5-a620-534533877b8f")
-	)
-	(hierarchical_label "VIN_protected"
-		(shape bidirectional)
-		(at 246.38 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c42dee73-f134-4185-bbc5-d909ebe0500c")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
