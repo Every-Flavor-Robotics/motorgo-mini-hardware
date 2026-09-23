@@ -1,0 +1,208 @@
+(footprint "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.68 0)
+		(layer "F.SilkS")
+		(uuid "3abcb42b-0d28-4b3a-bf22-7d56ab801268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1"
+		(at 0 6.68 0)
+		(layer "F.Fab")
+		(uuid "b935bace-e764-4966-8805-d5d1bf519aa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69dfb515-b644-479f-8470-a3341547b085")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be019b0d-4b79-4df9-bf26-90f587aaadcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -1.52)
+		(end 2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab8c2487-d07c-4b9f-af79-8ea868a69b95")
+	)
+	(fp_line
+		(start -2.58 1.52)
+		(end -2.58 -1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "160ee141-3068-49a6-a454-2fd82240e031")
+	)
+	(fp_line
+		(start 2.58 -1.52)
+		(end 2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc47710c-e737-4f87-9c7f-278e328060ad")
+	)
+	(fp_line
+		(start 2.58 1.52)
+		(end -2.58 1.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c2e6b25-c51c-4b49-b5e0-46d1452f67b7")
+	)
+	(fp_circle
+		(center -2.67 2.68)
+		(end -2.52 2.68)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "026742ff-9726-4176-925b-16f08846e850")
+	)
+	(fp_circle
+		(center -1.9 0.77)
+		(end -1.75 0.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dbcb7933-1b3f-467a-b9f7-440e3262e492")
+	)
+	(fp_circle
+		(center -1.9 3.4)
+		(end -1.75 3.4)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5747c13b-7c4e-437f-8161-6a72fe8c7617")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8c5d8b71-ba49-42f2-ab70-1a1f5e4ac218")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b9531c73-2f59-4527-b0b9-3bff8b9e714d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -1.9 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8390c701-5d6f-4d2d-9eb7-921926d1973e")
+	)
+	(pad "2" smd oval
+		(at -0.63 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6810175-e11a-4043-b1a0-4a0d59ff9d55")
+	)
+	(pad "3" smd oval
+		(at 0.64 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8ca94d6c-f6e0-4624-a61c-ef2e0af897a9")
+	)
+	(pad "4" smd oval
+		(at 1.91 2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3029d5e6-bd05-499b-859e-9793a5f6fd18")
+	)
+	(pad "5" smd oval
+		(at 1.91 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1238a90b-fa54-48b3-abe7-b406f792c032")
+	)
+	(pad "6" smd oval
+		(at 0.64 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c453b5eb-7140-4cb5-8845-691ea4509db9")
+	)
+	(pad "7" smd oval
+		(at -0.63 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f862cb6-3afa-4287-a9fe-60d19c08521b")
+	)
+	(pad "8" smd oval
+		(at -1.9 -2.68)
+		(size 0.63 1.86)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1d08818-a70c-4fda-823b-e4466c6d159a")
+	)
+	(embedded_fonts no)
+	(model "U:/pcb/motorgo-mini-hardware/motorgo-gimbus/gimbus-kicad/mg-gimbus/libraries/gimbus-parts.3dshapes/SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1.wrl"
+		(offset
+			(xyz 0 -0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

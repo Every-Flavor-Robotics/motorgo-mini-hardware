@@ -1,0 +1,149 @@
+(footprint "SOD-123_L2.8-W1.8-LS3.7-RD-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "8dae1e55-acb3-497c-8d52-2f884d30b852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD-123_L2.8-W1.8-LS3.7-RD-2"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "8f263bd8-046e-4b65-be1b-3ad8416e4610")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ed94188-9fe9-4ff2-844c-8ce10cc34161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4a5a4e9-b93b-4bef-804c-fb34666dc710")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.41 -0.87)
+		(end 1.41 -0.87)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93ed8c5d-dd9a-4579-91d7-656cd1b0ba33")
+	)
+	(fp_line
+		(start -1.41 0.87)
+		(end 1.41 0.87)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08770512-a61e-4901-bb28-5b8b455c2c95")
+	)
+	(fp_line
+		(start -1.05 -0.87)
+		(end -1.05 0.87)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd785cd2-12fd-4bb7-b853-110291271346")
+	)
+	(fp_line
+		(start 1.41 -0.87)
+		(end 1.41 -0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59598caf-0d29-42f2-b7a1-402283b2723c")
+	)
+	(fp_line
+		(start 1.41 0.87)
+		(end 1.41 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea4ad6a7-bf27-4880-a254-785de6361ed5")
+	)
+	(fp_circle
+		(center -1.83 0.9)
+		(end -1.8 0.9)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d00b7871-d7e8-46c6-937e-8d2c4b98a809")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7e9c8915-7c6c-4c83-a96c-d977170be865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.69 0)
+		(size 0.95 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb949601-2947-4e67-9f91-f1f041d52e1a")
+	)
+	(pad "2" smd rect
+		(at 1.69 0)
+		(size 0.95 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f88e6d8f-bab4-42c4-80a7-87e8853e1631")
+	)
+	(embedded_fonts no)
+	(model "U:/pcb/motorgo-mini-hardware/motorgo-gimbus/gimbus-kicad/mg-gimbus/libraries/gimbus-parts.3dshapes/SOD-123_L2.8-W1.8-LS3.7-RD.wrl"
+		(offset
+			(xyz 0 -0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

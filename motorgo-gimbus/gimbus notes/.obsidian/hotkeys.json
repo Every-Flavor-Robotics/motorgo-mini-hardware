@@ -1,0 +1,201 @@
+{
+  "file-explorer:new-file": [],
+  "command-palette:open": [],
+  "workspace:close-window": [],
+  "workspace:close": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:delete-paragraph": [],
+  "editor:insert-link": [],
+  "app:go-back": [],
+  "app:go-forward": [],
+  "workspace:new-tab": [],
+  "editor:save-file": [],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "global-search:open": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-comments": [],
+  "editor:toggle-italics": [],
+  "markdown:toggle-preview": [],
+  "workspace:undo-close-pane": [],
+  "emacs-text-editor:backward-char": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "emacs-text-editor:backward-kill-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "emacs-text-editor:backward-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "emacs-text-editor:delete-char": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "emacs-text-editor:kill-line": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Backspace"
+    }
+  ],
+  "emacs-text-editor:forward-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "emacs-text-editor:forward-char": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "emacs-text-editor:beginning-of-buffer": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "emacs-text-editor:end-of-buffer": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "emacs-text-editor:kill-word": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "emacs-text-editor:move-end-of-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "emacs-text-editor:move-beginning-of-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "emacs-text-editor:next-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "emacs-text-editor:previous-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "P"
+    }
+  ],
+  "emacs-text-editor:recenter-top-bottom": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "emacs-text-editor:set-mark-command": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "emacs-text-editor:undo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "/"
+    }
+  ],
+  "emacs-text-editor:yank": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
+  ],
+  "emacs-text-editor:backward-paragraph": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "emacs-text-editor:forward-paragraph": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ]
+}

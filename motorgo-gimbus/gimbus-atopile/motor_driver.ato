@@ -1,0 +1,36 @@
+#pragma experiment("FOR_LOOP")
+#pragma experiment("BRIDGE_CONNECT")
+
+import ElectricPower
+
+from "parts/Texas_Instruments_DRV8316CRRGFR/Texas_Instruments_DRV8316CRRGFR.ato" import Texas_Instruments_DRV8316CRRGFR_package
+
+module MotorDriverBlock:
+    """
+    Motor driver block using DRV8316CRRGFR
+    """
+    drv = new Texas_Instruments_DRV8316CRRGFR_package
+    v_bus = new ElectricPower
+    vcc_3v3 = new ElectricPower
+    gnd = new ElectricPower
+
+    # Power
+    drv.VM ~ v_bus
+    drv.AGND ~ gnd
+    drv.AVDD ~ vcc_3v3
+
+    # SPI connection (user to connect externally)
+    # drv.SCLK ~ spi_sck
+    # drv.SDI ~ spi_mosi
+    # drv.SDO ~ spi_miso
+    # drv.nSCS ~ spi_cs
+
+    # PWM inputs (user to connect externally)
+    # drv.INHA ~ pwm_a
+    # drv.INHB ~ pwm_b
+    # drv.INHC ~ pwm_c
+
+    # Motor phase outputs (user to connect externally)
+    # drv.OUTA ~ out_a
+    # drv.OUTB ~ out_b
+    # drv.OUTC ~ out_c 

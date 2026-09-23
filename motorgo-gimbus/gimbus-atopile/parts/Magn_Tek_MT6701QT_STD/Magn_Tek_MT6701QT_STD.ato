@@ -1,0 +1,28 @@
+#pragma experiment("TRAITS")
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component Magn_Tek_MT6701QT_STD_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C2913974", date="2025-07-21T18:26:48.489584+00:00", checksum="31e3acde5263b87c8e80b5fb080527033f3a587f552a1baab5cf55834b6dea2b">
+
+    trait is_atomic_part<manufacturer="Magn Tek", partnumber="MT6701QT-STD", footprint="QFN-16_L3.0-W3.0-P0.50-TL-EP1.7.kicad_mod", symbol="MT6701QT-STD_C2913974.kicad_sym", model="QFN-16_L3.0-W3.0-H0.9-P0.50.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C2913974", manufacturer="Magn Tek", partno="MT6701QT-STD">
+    trait has_designator_prefix<prefix="U">
+
+    # pins
+    signal A ~ pin 6
+    signal B ~ pin 7
+    signal EP ~ pin 17
+    signal GND ~ pin 16
+    signal MODE ~ pin 14
+    signal OUT ~ pin 15
+    signal PUSH ~ pin 5
+    signal U ~ pin 11
+    signal V ~ pin 12
+    signal VDD ~ pin 13
+    signal W ~ pin 9
+    signal Z ~ pin 8

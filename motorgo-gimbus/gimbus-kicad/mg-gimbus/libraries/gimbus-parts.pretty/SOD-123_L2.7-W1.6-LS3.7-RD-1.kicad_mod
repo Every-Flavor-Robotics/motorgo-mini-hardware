@@ -1,0 +1,239 @@
+(footprint "SOD-123_L2.7-W1.6-LS3.7-RD-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "376dbda1-35ba-48b2-b4f6-276314d2d17d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD-123_L2.7-W1.6-LS3.7-RD-1"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "3971adf5-8a0b-4623-a5b0-5937108d64bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53d5ff34-bba8-4fa8-8ffc-db4a90687751")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99de6c36-2bfb-432b-9705-f4f30284a1d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.64 -0.85)
+		(end -1.64 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6ec3a1a-8691-4ff5-a5bb-0f77410ae28c")
+	)
+	(fp_line
+		(start -1.64 0.85)
+		(end -1.64 0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1dd05e3-2b50-4dd4-9bfa-b53522019b71")
+	)
+	(fp_line
+		(start -1.35 -0.85)
+		(end -1.64 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e06345d9-deb0-4490-8ca8-143aa0a719cb")
+	)
+	(fp_line
+		(start -1.35 -0.85)
+		(end 1.35 -0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fb0d87d-b685-49c6-aa59-8293701490da")
+	)
+	(fp_line
+		(start -1.35 0.85)
+		(end -1.64 0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6e15709-68c2-4d12-a93a-3262b5081633")
+	)
+	(fp_line
+		(start -0.28 0)
+		(end -0.61 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b272bebc-dfcf-4c1a-962d-83246a3348b9")
+	)
+	(fp_line
+		(start -0.25 -0.51)
+		(end -0.25 0.51)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20a8cd2a-ceb0-4863-94bc-12be159f764f")
+	)
+	(fp_line
+		(start -0.18 0)
+		(end 0.41 -0.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cd7bb8e-0437-47c2-aa4b-5694242b418e")
+	)
+	(fp_line
+		(start 0.41 -0.41)
+		(end 0.41 0.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "729f9816-c9ba-45bb-936e-c69bda590272")
+	)
+	(fp_line
+		(start 0.41 0)
+		(end 0.72 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d9b8449-fa41-4929-b454-0eb8da3bb9e1")
+	)
+	(fp_line
+		(start 0.41 0.41)
+		(end -0.18 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "980d6148-ee1a-4ca4-a15a-777843dbdd31")
+	)
+	(fp_line
+		(start 1.35 -0.85)
+		(end 1.35 -0.71)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd7cc82f-d331-4b96-aaac-348c6b5999e3")
+	)
+	(fp_line
+		(start 1.35 0.71)
+		(end 1.35 0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "943855b8-53ef-4fbf-bbdd-20fc71be2512")
+	)
+	(fp_line
+		(start 1.35 0.85)
+		(end -1.35 0.85)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8246972e-d6fa-4cb7-aad4-95b5dd3310a5")
+	)
+	(fp_circle
+		(center -1.85 0.8)
+		(end -1.82 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b494b272-2993-44e6-8581-ad2d832c3c38")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3fa1fb28-bca0-448d-b799-269dcafb3515")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f566532-fad0-4fc5-9a93-721a14ef06ac")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 1.2 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "daa2a6ec-5fd9-4628-8778-a97b77dc3310")
+	)
+	(embedded_fonts no)
+	(model "U:/pcb/motorgo-mini-hardware/motorgo-gimbus/gimbus-kicad/mg-gimbus/libraries/gimbus-parts.3dshapes/SOD-123_L2.7-W1.6-LS3.7-RD-1.wrl"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

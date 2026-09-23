@@ -1,0 +1,22 @@
+requires-atopile: "0.10.12"
+
+paths:
+  src: ./
+  layout: ./layouts
+
+builds:
+  default:
+    entry: main.ato:App
+
+# This metadata is only required for publishing
+# Uncomment it and fill out the fields to publish your package
+# package:
+#   identifier: # fill me!/gimbus
+#   repository: # fill me!
+#   version: "0.1.0"  # recommended first version
+#   authors:
+#     - name: Alexchunlin
+#       email: alexchunlin@everyflavorrobotics.com
+#   summary: # fill me!
+#   license: Not open source
+#   homepage: # fill me!

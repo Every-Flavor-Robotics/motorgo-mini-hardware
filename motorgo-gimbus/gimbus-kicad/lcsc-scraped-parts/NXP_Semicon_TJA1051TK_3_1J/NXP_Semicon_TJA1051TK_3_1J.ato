@@ -1,0 +1,25 @@
+#pragma experiment("TRAITS")
+import has_designator_prefix
+import has_part_picked
+import is_atomic_part
+import is_auto_generated
+
+component NXP_Semicon_TJA1051TK_3_1J_package:
+    # This trait marks this file as auto-generated
+    # If you want to manually change it, remove the trait
+    trait is_auto_generated<system="ato_part", source="easyeda:C2875699", date="2025-07-21T18:34:17.148439+00:00", checksum="46f0e18ebb6b39680d9e80276bc31568ffb707ead9ddce3747bf8770ead52dcc">
+
+    trait is_atomic_part<manufacturer="NXP Semicon", partnumber="TJA1051TK/3/1J", footprint="HVSON-8_L3.0-W3.0-P0.65-BL-EP.kicad_mod", symbol="TJA1051TK_3_1J.kicad_sym", model="HVSON-8_L3.0-W3.0-H0.85-P0.65-BL-EP.step">
+    trait has_part_picked::by_supplier<supplier_id="lcsc", supplier_partno="C2875699", manufacturer="NXP Semicon", partno="TJA1051TK/3/1J">
+    trait has_designator_prefix<prefix="U">
+
+    # pins
+    signal CANH ~ pin 7
+    signal CANL ~ pin 6
+    signal EP ~ pin 9
+    signal GND ~ pin 2
+    signal RXD ~ pin 4
+    signal S ~ pin 8
+    signal TXD ~ pin 1
+    signal VCC ~ pin 3
+    signal VIO ~ pin 5
